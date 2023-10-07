@@ -4,9 +4,12 @@ export default {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  theme: {
+  theme: {fontFamily: {
+    'display': ['Poppins', 'sans-serif'],
+    
     extend: {},
   },
   plugins: [],
 }
 
+}
